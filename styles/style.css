@@ -85,3 +85,58 @@ nav {
   font-size: 18px;
   font-weight: 500;
 }
+
+.fill-img {
+  position: fixed;
+  height: 661px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b-content h2 {
+  color: #0b0223;
+  text-align: left;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.b-content h1 {
+  text-align: left;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem;
+}
+.b-content p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.b-content p img {
+  margin-right: 0.5rem;
+}
+.b-content button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 3rem;
+  margin-right: 1.5rem;
+  margin-top: 40px;
+}
+.b-content .one {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+.b-content .two {
+  background-color: #4ec5f7;
+}
