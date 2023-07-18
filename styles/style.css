@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* shared style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header section */
+
+nav,
+.banner {
+  padding: 0 240px;
+}
+
+nav {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  /* padding: 37px auto; */
+}
+
+.menu,
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 86.041px;
+  height: 40px;
+  margin-right: 20px;
+}
+.logo h3 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+.logo h3 span {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu li {
+  list-style: none;
+}
+.menu li:last-child {
+  margin-left: 32px;
+  margin-bottom: 1rem;
+}
+.menu a {
+  text-decoration: none;
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+.menu button {
+  margin: 32px 0;
+  padding: 16px 24px;
+  width: 262px;
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+}
+.menu button span {
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
