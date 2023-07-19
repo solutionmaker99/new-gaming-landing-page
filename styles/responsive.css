@@ -1,9 +1,10 @@
 @media screen and (max-width: 576px) {
   nav {
+    margin: 0 auto;
     height: fit-content;
     width: fit-content;
     flex-direction: column;
-    padding-top: 100px;
+    padding: 100px 0;
     box-shadow: none;
   }
   .logo {
@@ -27,9 +28,7 @@
   }
   .b-image img {
     position: relative;
-    left: 8rem;
-    top: 0rem;
-    margin-left: 3rem;
+    width: 400px;
   }
   .b-content {
     background-image: url("../images/group-14.png");
@@ -38,15 +37,240 @@
     align-items: center;
     flex-direction: column;
     margin: 1.5rem;
-    width: 40rem;
     margin: 1rem auto;
     background-position: center;
     background-size: contain;
   }
-  .b-content h2 {
-    margin-top: 10rem;
-  }
   .banner-btn {
-    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .b-content h2 {
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+  .b-content h1 {
+    font-size: 86px;
+    margin-bottom: 8px;
+    padding: 10px;
+  }
+  /* games section */
+
+  .games {
+    padding: 0 36px;
+  }
+  .g-content h2 {
+    font-size: 24px;
+  }
+  .g-content h2 span {
+    font-size: 24px;
+  }
+  .card {
+    margin-bottom: 3rem;
+  }
+  .card p {
+    font-size: 13px;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* buttons section */
+
+  .buttons {
+    padding: 0 5px;
+  }
+  .grid-container-one,
+  .grid-container-two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .button-container button img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+  .grid-container-one button {
+    margin-right: 2px;
+  }
+  .grid-container-two button {
+    margin: 0 8px;
+  }
+  .button-container button p {
+    font-size: 12px;
+  }
+  .button-container .small {
+    display: none;
+  }
+  .hidden-grid-container {
+    display: flex;
+  }
+  .hidden-grid-container button {
+    margin-right: 2px;
+    margin-top: 1.5rem;
+  }
+
+  /* footer section */
+
+  footer {
+    width: 425px;
+  }
+
+  .links {
+    margin-bottom: 2rem;
+  }
+
+  .links ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .links li {
+    margin: 2rem auto;
+  }
+  .links a {
+    padding-left: 1rem;
+  }
+
+  .social-img {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .social-img img {
+    margin-bottom: 54px;
+  }
+  .footer-policy {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .copy-wright p {
+    max-width: 258px;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  nav {
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    padding: 50px 0;
+    box-shadow: none;
+  }
+  .logo {
+    margin-bottom: 4rem;
+    justify-content: space-around;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu ul li {
+    margin-bottom: 4rem;
+    padding-left: 0;
+  }
+  .menu button {
+    margin: 0;
+  }
+  .banner {
+    padding: 0 56px;
+  }
+  .banner h2 {
+    font-size: 24px;
+  }
+  .banner h1 {
+    font-size: 64px;
+  }
+  .banner button {
+    font-size: 1rem;
+  }
+  .b-image img {
+    width: 295px;
+    height: 340px;
+  }
+
+  /* games section */
+  .games {
+    padding: 0 56px;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  /* buttons section */
+
+  .buttons {
+    padding: 2rem;
+  }
+  .grid-container-one,
+  .grid-container-two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .button-container button img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+  .grid-container-one button {
+    margin-right: 2px;
+  }
+  .grid-container-two button {
+    margin: 0 8px;
+  }
+  .button-container button p {
+    font-size: 12px;
+  }
+  .button-container .small {
+    display: none;
+  }
+  .hidden-grid-container {
+    display: flex;
+  }
+  .hidden-grid-container button {
+    margin-right: 2px;
+    margin-top: 1.5rem;
+  }
+  .grid-container-one {
+    margin-left: 2rem;
+  }
+
+  /* footer section */
+
+  .links {
+    margin-bottom: 2rem;
+  }
+
+  .links ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .links li {
+    margin: 2rem auto;
+  }
+  .links a {
+    padding-left: 1rem;
+  }
+
+  .social-img {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .social-img img {
+    margin-bottom: 54px;
+  }
+  .footer-policy {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .copy-wright p {
+    max-width: 258px;
+    margin-top: 2rem;
   }
 }
