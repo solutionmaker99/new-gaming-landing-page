@@ -4,18 +4,21 @@
     height: fit-content;
     width: fit-content;
     flex-direction: column;
-    padding: 100px 0;
+    padding: 2rem 0;
     box-shadow: none;
   }
   .logo {
     margin-bottom: 4rem;
     justify-content: space-around;
   }
+  .logo img {
+    margin-right: 0;
+  }
   .menu ul {
     flex-direction: column;
   }
   .menu ul li {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     padding-left: 0;
   }
   .menu button {
@@ -168,12 +171,14 @@
     margin-bottom: 54px;
   }
   .footer-policy {
+    margin-top: 0.5rem;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
   .copy-wright p {
     max-width: 258px;
     margin-top: 2rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -183,19 +188,23 @@
     height: fit-content;
     width: fit-content;
     flex-direction: column;
-    padding: 50px 0;
+    padding: 50px 0 1rem;
     box-shadow: none;
   }
   .logo {
-    margin-bottom: 4rem;
-    justify-content: space-around;
+    margin-bottom: 2rem;
+    justify-content: center;
   }
   .menu ul {
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
   }
   .menu ul li {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     padding-left: 0;
+  }
+  .menu li:last-child {
+    margin-bottom: 3rem;
   }
   .menu button {
     margin: 0;
@@ -220,7 +229,7 @@
 
   /* games section */
   .games {
-    padding: 0 56px;
+    padding: 0 56px 0 2rem;
   }
   .card-container {
     display: grid;
@@ -312,11 +321,13 @@
     margin-bottom: 54px;
   }
   .footer-policy {
+    margin-top: 0.5rem;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
   .copy-wright p {
     max-width: 258px;
     margin-top: 2rem;
+    line-height: 1.5rem;
   }
 }
